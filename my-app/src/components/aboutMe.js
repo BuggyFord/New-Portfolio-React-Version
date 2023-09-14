@@ -1,11 +1,12 @@
 import React from "react";
+import profilePic from '../images/180534F2-B242-4A48-803B-EECFE4B1C7BB_1_105_c.jpeg';
 
 function About() {
     return(
         <div>
             <h1>AboutMe</h1>
 
-            <img></img>
+            <img src={profilePic}></img>
 
             <p>
                 Hello! I'm Tyler Johnson a recent graduate of UTSA's full stack web development bootcamp

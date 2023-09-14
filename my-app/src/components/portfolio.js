@@ -61,6 +61,8 @@ function Portfolio() {
                     <div>
                         <p>{item.title}</p>
                         <img src={item.image} alt=""/>
+                        <a href={item.link} target="_blank"/>
+                        <a href={item.github_link} target="_blank"/>
                         <p>{item.link}</p>
                         <p>{item.github_link}</p>
                     </div>

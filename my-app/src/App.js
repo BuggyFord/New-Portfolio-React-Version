@@ -3,15 +3,33 @@ import About from './components/aboutMe'
 import Header from './components/header';
 import Footer from './components/footer';
 import Portfolio from './components/portfolio';
+import Contact from './components/contact';
+import Resume from './components/resume';
+import "./App.css";
 
 export  function App() {
-    const [active, setActive] = useState('firstCard');
+    const [active, setActive] = useState('portfolio');
+
+    const renderSelect = () => {
+        switch(active) {
+            case "about":
+                return <About />;
+            case "contact":
+                return <Contact />;
+            case "portfolio":
+                return <Portfolio />;
+            case "resume": 
+                return <Resume />;
+            default: 
+                return null;
+        }
+    };
 
     return (
         <div className='app'>
-            <Header/>
+            <Header active={active} setActive={setActive}/>
             <div>
-                <img src='my-app/public/images/180534F2-B242-4A48-803B-EECFE4B1C7BB_1_105_c.jpeg'/>
+               <main>{renderSelect()}</main>
             </div>
             <Footer/>
         </div>
