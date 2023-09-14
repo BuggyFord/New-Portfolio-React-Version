@@ -9,21 +9,15 @@ import Resume from "./resume";
 function Header() {
     return(
         <div className="header">
-            <h1>Tyler Johnson</h1>
-            <nav> 
-                <button>
-                    AboutMe
-                </button>
-                <button>
-                    Contact
-                </button>
-                <button>
-                    Portfolio
-                </button>
-                <button>
-                    Resume
-                </button>
+
+           <nav> 
+                <button>AboutMe</button>
+                <button>Contact</button>
+                <button>Portfolio</button>
+                <button>Resume</button>
             </nav>
+            <h1>Tyler Johnson</h1>
+            
         </div>
     )
 }
