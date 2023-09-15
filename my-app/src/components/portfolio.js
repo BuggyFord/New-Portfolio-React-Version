@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import projectPic from '../images/Screenshot 2023-09-12 at 6.14.16 PM.png';
-import projectPic2 from '../images/Screenshot 2023-09-12 at 6.15.03 PM.png'
+//import projectPic2 from '../images/Screenshot 2023-09-12 at 6.15.03 PM.png'
 import { Link } from 'react-router-dom';
 
 function Portfolio() {
@@ -66,7 +66,8 @@ function Portfolio() {
                         <img src={projectPic}></img>
                         <a href={projects.link} target="_blank"/>
                         <a href={item.github_link} target="_blank"/>
-                        
+                        <Link to={item.github_link} target="_blank" rel="noreferrer"/>
+
                         <p>{item.link}</p>
                         <p>{item.github_link}</p>
                     </div>
