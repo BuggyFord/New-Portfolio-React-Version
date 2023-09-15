@@ -1,4 +1,7 @@
 import React, {useState} from "react";
+import projectPic from '../images/Screenshot 2023-09-12 at 6.14.16 PM.png';
+import projectPic2 from '../images/Screenshot 2023-09-12 at 6.15.03 PM.png'
+import { Link } from 'react-router-dom';
 
 function Portfolio() {
     let projectsArr = [
@@ -39,7 +42,7 @@ function Portfolio() {
 },
 {
     title:'Rocking Password Generator',
-    image: '/Users/tylerjohnson/Desktop/bootcamp2/challenges/Challenge-FinalHW/New-Portfolio-React-Version/my-app/public/images/Screenshot 2023-09-12 at 6.14.16 PM.png',
+    image: 'images/Screenshot 2023-09-12 at 6.14.16 PM.png',
     link: ' https://buggyford.github.io/Tyler-Rockin-Password-Generator/Links to an external site.',
     github_link: 'https://github.com/BuggyFord/Tyler-Rockin-Password-GeneratorLinks to an external site.'
 
@@ -60,9 +63,10 @@ function Portfolio() {
                 {projects.map(item => (
                     <div>
                         <p>{item.title}</p>
-                        <img src={item.image} alt=""/>
-                        <a href={item.link} target="_blank"/>
+                        <img src={projectPic}></img>
+                        <a href={projects.link} target="_blank"/>
                         <a href={item.github_link} target="_blank"/>
+                        
                         <p>{item.link}</p>
                         <p>{item.github_link}</p>
                     </div>
