@@ -5,7 +5,7 @@ import projectPic3 from '../images/Screenshot 2023-09-12 at 6.15.46 PM.png';
 import projectPic4 from '../images/Screenshot 2023-09-12 at 6.16.17 PM.png';
 import projectPic5 from '../images/Screenshot 2023-09-12 at 6.19.02 PM.png';
 import projectPic6 from '../images/Screenshot 2023-09-12 at 6.20.33 PM.png';
-import { Link } from 'react-router-dom';
+
 
 function Portfolio() {
     let projectsArr = [
@@ -63,18 +63,13 @@ function Portfolio() {
             <div>
                 <h1>My Portfolio</h1>
             </div>
-            <p>{projectsArr[0].title}</p>
 
                 {projects.map(item => (
                     <div>
                         <p>{item.title}</p>
                         <img src={item.image}></img>
-                        <a href={projects.link} target="_blank"/>
-                        <a href={item.github_link} target="_blank"/>
-                        <Link to={item.link} target="_blank" rel="noreferrer"/>GitHub<Link/>
-
-                        <p>{item.link}</p>
-                        <p>{item.github_link}</p>
+                        <a href={item.github_link} target="_blank" rel="noreferrer">GitHub</a>
+                        <a href={item.link} target="_blank" rel="noreferrer">Deployed</a>
                     </div>
                 ))} 
             
