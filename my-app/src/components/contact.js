@@ -28,13 +28,13 @@ function Contact() {
                     <label>
                         Name
                     </label>
-                    <input type="text" required/>
+                    <input type="text" placeholder="Name"required/>
                 </div>
                 <div>
                     <label htmlFor="email">
                         Email
                     </label>
-                    <input type="email" required/>
+                    <input type="email" placeholder="Email"required/>
                 </div>
                 <div>
                     <label htmlFor="message">
