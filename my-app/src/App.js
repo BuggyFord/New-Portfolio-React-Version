@@ -8,7 +8,7 @@ import Resume from './components/resume';
 import "./App.css";
 
 export  function App() {
-    const [active, setActive] = useState('portfolio');
+    const [active, setActive] = useState('about');
 
     const renderSelect = () => {
         switch(active) {

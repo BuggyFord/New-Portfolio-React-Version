@@ -25,7 +25,7 @@ function Contact() {
 
     return(
         <div>
-            <h1>Contact</h1>
+            <h1 className="flex-center">Contact</h1>
             <form onSubmit={onSubmit}>
                 <div>
                     <label>

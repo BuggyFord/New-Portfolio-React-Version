@@ -1,14 +1,14 @@
 import React from "react";
-import profilePic from '../images/180534F2-B242-4A48-803B-EECFE4B1C7BB_1_105_c.jpeg';
+import profilePic from '../images/641F3048-249E-4DBB-B38C-22EED00833EE_1_201_a.jpeg';
 
 function About() {
     return(
         <div>
-            <h1>AboutMe</h1>
+            <h1 className="flex-center">AboutMe</h1>
 
-            <img src={profilePic}></img>
+            <img src={profilePic} className="pic"></img>
 
-            <p>
+            <p className="flex-center" id="bio">
                 Hello! I'm Tyler Johnson a recent graduate of UTSA's full stack web development bootcamp
                 and budding full stack web developer. Over the course of the last six months I have poured
                 myself headlong into a field that I never imagined I would be in. I went from living as a 

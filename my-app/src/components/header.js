@@ -8,12 +8,12 @@ function Header(props) {
     return(
         <div className="header">
             <div>
-                <h1>Tyler Johnson</h1>
-            </div>
-            <Navigate
+                <Navigate
                 active={active}
                 setActive= {setActive}
             />
+            </div>
+           
         </div>
     )
 }

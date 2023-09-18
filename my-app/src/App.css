@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pic{
+margin: auto;
+display: flex;
+height: 500px;
+width: 400px;
+border-radius: 50%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-center{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#bio{
+  margin: 20px;
+}
+.footer{
+  background-color: rgba(0, 0, 0, 0.992);
+}
+.header{
+  background-color: black;
+}
+.name{
+  margin-top:50px;
+  color:white;
+}
+.footLink{
+  margin:10px;
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  color:rgb(5, 243, 156);
+  transform: scale(1.25);
+  transition: 1.25s;
+}
+button{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgb(7, 4, 4);
+  background-color: rgb(5, 243, 156);
+  border-radius: 25px;
+  border:none;
+  width: 75px;
+}
+button:hover{
+  transform: scale(1.25);
+  transition: 1.25s;
+}
+.butts{
+  display: flex;
+  justify-content: space-around;
+  list-style:none;
+  margin: 5px;
+}
+.portPic{
+  margin: 25px;
+  width: 80%;
+  border-radius:20px;
+}
+@media screen and (min-width:1200px){
+  .row .butts .name {
+    display: inline-flex;
+    align-items:right;
+    border-bottom: #282c34;
+    }
 }

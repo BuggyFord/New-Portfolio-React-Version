@@ -12,19 +12,19 @@ function Navigation(props) {
     }
 
     return(
-        <nav>
-            <h3>Nav Component</h3>
+        <nav className="row">
+            <h3 className="row name">Tyler Johnson</h3>
             <ul>
-                <li>
+                <li className="butts row">
                     <button onClick={() => setActive('about')} value="about">About Me</button>
                 </li>
-                <li>
-                    <button onClick={handleClick} value="contact">Contact</button>
+                <li className="butts row">
+                    <button  onClick={handleClick} value="contact">Contact</button>
                 </li>
-                <li>
+                <li className="butts row">
                     <button onClick={() => setActive('portfolio')}>Portfolio</button>
                 </li>
-                <li>
+                <li className="butts row">
                     <button onClick={() => setActive('resume')}>Resume</button>
                 </li>
 
