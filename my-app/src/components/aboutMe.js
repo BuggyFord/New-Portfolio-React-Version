@@ -4,7 +4,10 @@ import profilePic from '../images/641F3048-249E-4DBB-B38C-22EED00833EE_1_201_a.j
 function About() {
     return(
         <div>
+         
             <h1 className="flex-center">AboutMe</h1>
+         
+            
 
             <img src={profilePic} className="pic"></img>
 

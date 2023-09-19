@@ -1,19 +1,20 @@
 import React from "react";
-
+import resume from "../images/updatedResume.pdf";
 function Resume() {
     return(
         <div>
-            <h1>Download My Resume</h1>
-            <div>
+            <h1 className="flex-center">Download My Resume</h1>
+            <span>
             <a
-            href={process.env.PUBLIC_URL + "/images/updatedResume.pdf"}
+            className="flex-center resumeLink"
+            href={resume}
           download="updatedResume.pdf">
-            Download My Resume{" "}
+            Download{" "}
           </a>
-            </div>
+            </span>
 
-        <div>
-            <h2>Skills</h2>
+        <div className="skills">
+            <h2 className="flex-center">Skills</h2>
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>

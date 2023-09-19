@@ -17,14 +17,53 @@ border-radius: 50%;
   margin-left: 10px;
 
 }
+.conRow{
+  display: flex;
+  flex-wrap: wrap;
+}
 #bio{
   margin: 20px;
 }
 .footer{
   background-color: rgba(0, 0, 0, 0.992);
+  padding-top: 10px;
 }
 .header{
   background-color: black;
+}
+h1, h3{
+  font-family: 'Kanit', sans-serif;
+  
+}
+.projTitle{
+  padding-left: 10px;
+  border-top: 2px solid black;
+}
+p{
+  font-family: 'Kanit', sans-serif;
+  font-size:x-large;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  padding:12px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  
+}
+li{
+  display: flex;
+  justify-content: center;
+  font-family: 'Kanit', sans-serif;
+  
+}
+#message{
+  padding-left: 25px;
+}
+.space{
+  padding: 10px;
+  font-family: 'Kanit', sans-serif;
 }
 .name{
   margin-top:50px;
@@ -34,14 +73,44 @@ border-radius: 50%;
   margin:10px;
   color:white;
   text-decoration: none;
+  font-family: 'Kanit', sans-serif;
+}e
+.portLink, .depLink{
+  margin:10px;
+  color:black;
+  text-decoration: none;
+  background-color: rgb(5, 243, 156);
+  font-family: 'Kanit', sans-serif;
+  border-radius: 5px;
+  padding:5px;
+  padding-bottom: 5px;
 }
-a:hover{
+.resumeLink{
+  background-color: rgb(5, 243, 156);
+  margin:10px;
+  color:black;
+  font-size:25px;
+  text-decoration: underline;
+  font-family: 'Kanit', sans-serif;
+  border-radius: 5px;
+  padding:5px;
+  padding-bottom: 5px;
+}
+.resumeLink:hover{
+  transform: scale(1.25);
+  transition: 1.25s;
+}
+.depLink:hover{
+  transform: scale(1.25);
+  transition: 1.25s;
+}
+.footLink:hover{
   color:rgb(5, 243, 156);
   transform: scale(1.25);
   transition: 1.25s;
 }
 button{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'Kanit', sans-serif;
   color:rgb(7, 4, 4);
   background-color: rgb(5, 243, 156);
   border-radius: 25px;
@@ -57,6 +126,10 @@ button:hover{
   justify-content: space-around;
   list-style:none;
   margin: 5px;
+}
+#subBtn{
+  display: flex;
+  justify-content: center;
 }
 .portPic{
   margin: 25px;

@@ -61,15 +61,16 @@ function Portfolio() {
     return(
         <div>
             <div>
-                <h1 className="flex-center">My Portfolio</h1>
+                <h1 className="flex-center" id="portTitle">My Portfolio</h1>
             </div>
 
                 {projects.map(item => (
                     <div >
-                        <p>{item.title}</p>
+                        <h2 className="projTitle">{item.title}</h2>
+                        <a href={item.github_link} target="_blank" rel="noreferrer" className="depLink">GitHub</a>
+                        <a href={item.link} target="_blank" rel="noreferrer" className="depLink">Deployed</a>
                         <img className="portPic" src={item.image}></img>
-                        <a href={item.github_link} target="_blank" rel="noreferrer">GitHub</a>
-                        <a href={item.link} target="_blank" rel="noreferrer">Deployed</a>
+                     
                     </div>
                 ))} 
             

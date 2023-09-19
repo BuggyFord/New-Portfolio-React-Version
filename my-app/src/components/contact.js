@@ -27,11 +27,12 @@ function Contact() {
         <div>
             <h1 className="flex-center">Contact</h1>
             <form onSubmit={onSubmit}>
-                <div>
-                    <label>
+                <div className="flex-center space">
+                    <label className="flex-center space">
                         Name
                     </label>
                     <input 
+                    className="space"
                     type="text"
                     id="name"
                     placeholder="Name"
@@ -39,11 +40,12 @@ function Contact() {
                     onChange={(e) => setName(e.target.value)}
                     />
                 </div>
-                <div>
-                    <label htmlFor="email">
+                <div className="flex-center space">
+                    <label htmlFor="email" className="flex-center space">
                         Email
                     </label>
                     <input
+                    className="space"
                     type="email" 
                     id="email"
                     placeholder="Email"
@@ -51,8 +53,8 @@ function Contact() {
                     onChange={(e) => setEmail(e.target.value)}
                     />
                 </div>
-                <div>
-                    <label htmlFor="message">
+                <div className="flex-center space">
+                    <label htmlFor="message" className="flex-center space">
                         Message
                     </label>
                     <textarea
@@ -62,9 +64,12 @@ function Contact() {
                     onChange={(e) => setMessage(e.target.value)}
                     />
                 </div>
-                <button type="submit">
-                    
+                <div className="flex-center space">
+                <button type="submit" >
+                    Submit
                 </button>
+                </div>
+              
             </form>
         </div>
     )
