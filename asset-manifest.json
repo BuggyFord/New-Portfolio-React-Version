@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/New-Portfolio-React-Version/static/css/main.fb541030.css",
-    "main.js": "/New-Portfolio-React-Version/static/js/main.62117866.js",
+    "main.js": "/New-Portfolio-React-Version/static/js/main.ec9cbc6c.js",
     "static/media/Screenshot 2023-09-12 at 6.15.46 PM.png": "/New-Portfolio-React-Version/static/media/Screenshot 2023-09-12 at 6.15.46 PM.4d2af104a0ab1da71973.png",
     "static/media/641F3048-249E-4DBB-B38C-22EED00833EE_1_201_a.jpeg": "/New-Portfolio-React-Version/static/media/641F3048-249E-4DBB-B38C-22EED00833EE_1_201_a.b26178569213efaec166.jpeg",
+    "static/media/Screenshot 2023-10-03 at 7.51.10 PM.png": "/New-Portfolio-React-Version/static/media/Screenshot 2023-10-03 at 7.51.10 PM.c433bc1e09295b2a3c82.png",
     "static/media/Screenshot 2023-09-12 at 6.19.02 PM.png": "/New-Portfolio-React-Version/static/media/Screenshot 2023-09-12 at 6.19.02 PM.dbff898dce998b60560f.png",
     "static/media/Screenshot 2023-09-12 at 6.15.03 PM.png": "/New-Portfolio-React-Version/static/media/Screenshot 2023-09-12 at 6.15.03 PM.7f71ec91dcab4ecfd0c7.png",
     "static/media/Screenshot 2023-09-12 at 6.14.16 PM.png": "/New-Portfolio-React-Version/static/media/Screenshot 2023-09-12 at 6.14.16 PM.c26057127cbf0b1e692b.png",
@@ -12,10 +13,10 @@
     "static/media/Screenshot 2023-09-12 at 6.20.33 PM.png": "/New-Portfolio-React-Version/static/media/Screenshot 2023-09-12 at 6.20.33 PM.d67d61c6ba34051773ca.png",
     "index.html": "/New-Portfolio-React-Version/index.html",
     "main.fb541030.css.map": "/New-Portfolio-React-Version/static/css/main.fb541030.css.map",
-    "main.62117866.js.map": "/New-Portfolio-React-Version/static/js/main.62117866.js.map"
+    "main.ec9cbc6c.js.map": "/New-Portfolio-React-Version/static/js/main.ec9cbc6c.js.map"
   },
   "entrypoints": [
     "static/css/main.fb541030.css",
-    "static/js/main.62117866.js"
+    "static/js/main.ec9cbc6c.js"
   ]
 }
