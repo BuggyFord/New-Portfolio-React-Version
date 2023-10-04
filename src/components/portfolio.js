@@ -53,7 +53,7 @@ function Portfolio() {
 }, 
 
 {
-    title: 'React Portfolio',
+    title: 'Music Verse',
     image: projectPic7,
     link: 'https://music-verse2-57f59708a605.herokuapp.com/',
     github_link: 'https://github.com/pzhong1/Music-Verse'
