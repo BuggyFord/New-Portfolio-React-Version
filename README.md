@@ -1,4 +1,9 @@
 # React Portolio
+
+https://github.com/BuggyFord/New-Portfolio-React-Version
+
+https://buggyford.github.io/New-Portfolio-React-Version/
+
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
