@@ -5,7 +5,7 @@ import projectPic3 from '../images/Screenshot 2023-09-12 at 6.15.46 PM.png';
 import projectPic4 from '../images/Screenshot 2023-09-12 at 6.16.17 PM.png';
 import projectPic5 from '../images/Screenshot 2023-09-12 at 6.19.02 PM.png';
 import projectPic6 from '../images/Screenshot 2023-09-12 at 6.20.33 PM.png';
-
+import projectPic7 from '../images/Screenshot 2023-10-03 at 7.51.10 PM.png'
 
 function Portfolio() {
     let projectsArr = [
@@ -51,6 +51,13 @@ function Portfolio() {
     github_link: 'https://github.com/BuggyFord/Tyler-Rockin-Password-Generator'
 
 }, 
+
+{
+    title: 'React Portfolio',
+    image: projectPic7,
+    link: 'https://music-verse2-57f59708a605.herokuapp.com/',
+    github_link: 'https://github.com/pzhong1/Music-Verse'
+}
 
     ]
 
